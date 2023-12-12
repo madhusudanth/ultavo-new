@@ -1,0 +1,148 @@
+.page-id-112,.page-id-312, .page-id-314 {
+	h1.entry-title {
+		text-align: center;
+    	margin: 0.8em 0 !important;
+    }
+    .service-image{
+    	text-align: center;
+    	margin-bottom: 1.5em;
+    }
+}
+.page-id-112 h1.entry-title{
+	display: none;
+}
+.page-id-112 .entry-content{
+	text-align: center;
+	div#map-wrap {
+	    display: inline-block;
+	    width: 45%;
+	    float: left;
+	    iframe{
+	    	margin-bottom: 0;
+	    }
+	}
+	.wrap-form-address{
+	    display: inline-block;
+	    width: 53%;
+	    text-align: left;	    
+		.title {
+		    padding: 2% 2% 0 5%;
+		    h1 {
+			    margin-bottom: 2%;
+			}
+		}
+		label{
+			display: inline-block;
+    		width: 100%;
+		}
+		button, input, select, textarea, span{
+			font-family: Raleway-Regular;
+		}
+		input, select, textarea{
+			padding: 8px;
+		}
+		input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+		    font-family: Raleway-Regular;
+		}
+		input::-moz-placeholder, textarea::-moz-placeholder {
+		   font-family: Raleway-Regular;
+		}
+		input::-ms-placeholder, textarea::-ms-placeholder {
+		    font-family: Raleway-Regular;
+		}
+		input::placeholder, textarea::placeholder {
+		    font-family: Raleway-Regular;
+		}
+		.form-contact{
+			clear: both;
+			padding: 0 5%;
+			.wpcf7-form{
+				.wpcf7-submit{
+					width:200px;
+				}
+				p{
+					margin: 0 0 1em;
+				}
+				span.wpcf7-form-control-wrap.product-id {
+				    display: none;
+				}
+				textarea {
+				    height: 120px !important;
+				    width: 100% !important;	   
+				    margin-top: 10px; 
+				}
+				span.wpcf7-form-control-wrap.your-name {
+				    display: inline-block;
+				    width: 49%;
+				    float: left;
+				    margin-right: 1%;
+				}
+				span.wpcf7-form-control-wrap.your-email {
+				    display: inline-block;
+				    width: 50%;
+				    float: left;
+				}
+				input[type="text"], input[type="email"], input[type="textarea"] {
+	    			width: 100%;
+	    		}
+	    		select#brandscol, select#productscol {
+				    background: #f7f7f7;
+	    			padding: 8px;
+	    			color: #686868;
+	    			border: 1px solid #d1d1d1;
+	    			border-radius: 2px;
+				}
+				span.wpcf7-form-control-wrap.brandscol, span.wpcf7-form-control-wrap.productscol {
+				    width: 50%;
+				    display: inline-block;
+				    float: left;
+				}
+				span.wpcf7-form-control-wrap.brandscol{
+				    width: 49%;
+				    margin-right: 1%;
+				}
+				select#productscol, select#brandscol {
+					width: 100%;
+				}
+			}
+		}
+		.address-contact{
+			padding: 0 2% 2% 5%;
+			line-height: 1.5em;
+			display: block;
+			.blk {
+			    display: inline-block;
+			    width: 48%;
+			    padding: 1% 2% 1% 0;
+			    float: left;
+			}
+			.blk.full{
+				width: 100%;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 760px) {
+	.page-id-112 .entry-content .wrap-form-address {
+		width: 100%;
+	}
+	.page-id-112 .entry-content div#map-wrap {
+		width: 100%;
+		iframe{
+			height: 200px;
+		}
+	}
+}
+@media only screen and (max-width: 500px) {
+	.wrap-form-address{
+		.contact-custom{
+			display: block;
+			width: 100%;
+			float: none;
+			padding: 10px 20px;
+		}
+		.address-contact{
+			text-align: left;
+		}
+	}
+}

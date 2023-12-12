@@ -1,0 +1,809 @@
+0000.000 (0) Opened log file at time: Mon, 11 Dec 2023 23:05:53 +0000 on http://ulta.m2dev.invanos.net
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.6 WP: 6.2.3 PHP: 7.4.33 (fpm-fcgi, Linux m2dev 3.10.0-862.3.2.el7.x86_64 #1 SMP Mon May 21 23:36:36 UTC 2018 x86_64) MySQL: 5.7.22-22-log (max packet size=20971520) WPLANG: en_US Server: Apache/2.4.6 safe_mode: 0 max_execution_time: 900 memory_limit: 4128M (used: 5.2M | 2M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 1221.4 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.008 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.014 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1701732461, seconds_ago=603492)
+0000.020 (0) Set semaphore last lock (fd) time to 2023-12-11 23:05:53
+0000.022 (0) Semaphore lock (fd) complete
+0000.028 (0) Backup run: resumption=0, nonce=53d7c2e51664, file_nonce=53d7c2e51664 begun at=1702335953 (1s ago), job type=backup
+0000.030 (0) Scheduling a resumption (1) after 300 seconds (1702336254) in case this run gets aborted
+0000.034 (0) Checking if we have a zip executable available
+0000.036 (0) Testing: /usr/bin/zip
+0000.048 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.051 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.054 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.055 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.057 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.068 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.071 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.075 (0) Working binary zip found: /usr/bin/zip
+0000.078 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.080 (0) Creation of backups of directories: beginning
+0000.086 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.211 (0) Total entities for the zip file: 920 directories, 5137 files (0 skipped as non-modified), 75.1 MB
+0000.221 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.227 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.234 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.239 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.243 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.246 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.250 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.253 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.256 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.259 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.261 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.4 MB, 5137 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.884 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: size is now: 6.80 MB
+0000.891 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 1100 files added (on-disk size: 6976.4 KB)
+0000.895 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 1200 files added (on-disk size: 6976.4 KB)
+0000.899 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 1300 files added (on-disk size: 6976.4 KB)
+0000.902 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 1400 files added (on-disk size: 6976.4 KB)
+0000.906 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 1500 files added (on-disk size: 6976.4 KB)
+0000.909 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 1600 files added (on-disk size: 6976.4 KB)
+0000.913 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 1700 files added (on-disk size: 6976.4 KB)
+0000.917 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 1800 files added (on-disk size: 6976.4 KB)
+0000.920 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 1900 files added (on-disk size: 6976.4 KB)
+0000.923 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 2000 files added (on-disk size: 6976.4 KB)
+0000.925 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.4 MB, 5137 files batched, 1001 (2002) added so far); re-opening (prior size: 6976.4 KB)
+0001.520 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: size is now: 12.70 MB
+0001.532 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 2100 files added (on-disk size: 13012.9 KB)
+0001.538 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 2200 files added (on-disk size: 13012.9 KB)
+0001.542 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 2300 files added (on-disk size: 13012.9 KB)
+0001.546 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 2400 files added (on-disk size: 13012.9 KB)
+0001.549 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 2500 files added (on-disk size: 13012.9 KB)
+0001.553 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 2600 files added (on-disk size: 13012.9 KB)
+0001.556 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 2700 files added (on-disk size: 13012.9 KB)
+0001.559 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 2800 files added (on-disk size: 13012.9 KB)
+0001.562 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 2900 files added (on-disk size: 13012.9 KB)
+0001.565 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 3000 files added (on-disk size: 13012.9 KB)
+0001.567 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.4 MB, 5137 files batched, 1001 (3003) added so far); re-opening (prior size: 13012.9 KB)
+0002.197 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: size is now: 18.20 MB
+0002.210 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 3100 files added (on-disk size: 18638.9 KB)
+0002.215 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 3200 files added (on-disk size: 18638.9 KB)
+0002.219 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 3300 files added (on-disk size: 18638.9 KB)
+0002.223 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 3400 files added (on-disk size: 18638.9 KB)
+0002.227 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 3500 files added (on-disk size: 18638.9 KB)
+0002.231 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 3600 files added (on-disk size: 18638.9 KB)
+0002.234 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 3700 files added (on-disk size: 18638.9 KB)
+0002.237 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 3800 files added (on-disk size: 18638.9 KB)
+0002.240 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 3900 files added (on-disk size: 18638.9 KB)
+0002.243 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 4000 files added (on-disk size: 18638.9 KB)
+0002.244 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.7 MB, 5137 files batched, 1001 (4004) added so far); re-opening (prior size: 18638.9 KB)
+0002.779 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 4100 files added (on-disk size: 22138.1 KB)
+0002.783 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 4200 files added (on-disk size: 22138.1 KB)
+0002.786 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 4300 files added (on-disk size: 22138.1 KB)
+0002.789 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 4400 files added (on-disk size: 22138.1 KB)
+0002.792 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 4500 files added (on-disk size: 22138.1 KB)
+0002.795 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 4600 files added (on-disk size: 22138.1 KB)
+0002.799 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 4700 files added (on-disk size: 22138.1 KB)
+0002.802 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 4800 files added (on-disk size: 22138.1 KB)
+0002.805 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 4900 files added (on-disk size: 22138.1 KB)
+0002.808 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 5000 files added (on-disk size: 22138.1 KB)
+0002.811 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.3 MB, 5137 files batched, 1001 (5005) added so far); re-opening (prior size: 22138.1 KB)
+0004.112 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: size is now: 28.60 MB
+0004.122 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.tmp: 5100 files added (on-disk size: 29336 KB)
+0004.372 (0) Creating zip file manifest (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.list-temp.tmp)
+0004.389 (0) Successfully created zip file manifest (size: 417015)
+0004.827 (0) Created plugins zip (0) - 29637.9 KB in 4.7 s (6256.9 KB/s) (sha1: f9588327310388a373edd447758d03d72ba949e2, sha256: 8ec0484cc7adb22dce1eb5b40a0faefdc493f086ff83bb3abae8a7a7e5bdc770)
+0004.841 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0004.844 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-7282f0c7016211e6163a20aa11a4c79f)
+0004.846 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0005.191 (0) Successfully updated and refreshed the access token
+0005.194 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0005.522 (0) Dropbox: quota usage: used=1525.5 MB, total=2048 MB, available=522.5 MB
+0005.525 (0) Dropbox: Attempt to upload: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip to: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip
+0006.342 (0) Dropbox chunked upload: 3.5 % uploaded (pid_upload_session:ABIHKUCDVgUYWVMOqtmF_T4SOYDMn1h3gQ-6TmIcaJyh58b--A, 1048576, 5120 KB)
+0008.354 (0) Dropbox chunked upload: 20.7 % uploaded (pid_upload_session:ABIHKUCDVgUYWVMOqtmF_T4SOYDMn1h3gQ-6TmIcaJyh58b--A, 6291456, 10240 KB)
+0011.067 (0) Dropbox chunked upload: 55.3 % uploaded (pid_upload_session:ABIHKUCDVgUYWVMOqtmF_T4SOYDMn1h3gQ-6TmIcaJyh58b--A, 16777216, 10240 KB)
+0012.645 (0) Dropbox chunked upload: 89.8 % uploaded (pid_upload_session:ABIHKUCDVgUYWVMOqtmF_T4SOYDMn1h3gQ-6TmIcaJyh58b--A, 27262976, 10240 KB)
+0014.052 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHKUCDVgUYWVMOqtmF_T4SOYDMn1h3gQ-6TmIcaJyh58b--A, 30349200, 10240 KB)
+0015.516 (0) Recording as successfully uploaded: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip
+0015.530 (0) Deleting local file: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip: OK
+0015.532 (0) Dropbox: File upload success (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip): 29637 KB in 10s (2961 KB/s)
+0015.544 (0) Beginning creation of dump of themes (split every: 400 MB)
+0015.562 (0) Total entities for the zip file: 104 directories, 576 files (0 skipped as non-modified), 18.6 MB
+0015.566 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.569 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.572 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.575 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0015.578 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0016.333 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip.tmp: size is now: 15.00 MB
+0016.352 (0) Creating zip file manifest (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip.list-temp.tmp)
+0016.357 (0) Successfully created zip file manifest (size: 37821)
+0016.530 (0) Created themes zip (0) - 15363.9 KB in 1 s (15667.5 KB/s) (sha1: 517aedfef2e20c19dccf3ac3a0a09c699e879c00, sha256: 0ba321f6ec76c018512007388d2f45cdb1d128fad8ee7a99adcddc3448373dfd)
+0016.538 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0016.540 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-7282f0c7016211e6163a20aa11a4c79f)
+0016.542 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0016.544 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0016.853 (0) Dropbox: quota usage: used=1554.4 MB, total=2048 MB, available=493.6 MB
+0016.856 (0) Dropbox: Attempt to upload: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip to: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip
+0018.177 (0) Dropbox chunked upload: 66.6 % uploaded (pid_upload_session:ABIHKeca19UmKX9Etmhl_ASVjCb_UxuW0V_0qSZNjK3DusBINw, 10485760, 10240 KB)
+0021.281 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHKeca19UmKX9Etmhl_ASVjCb_UxuW0V_0qSZNjK3DusBINw, 15732633, 10240 KB)
+0022.811 (0) Recording as successfully uploaded: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip
+0022.826 (0) Deleting local file: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip: OK
+0022.828 (0) Dropbox: File upload success (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip): 15363 KB in 5s (2572 KB/s)
+0022.838 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0022.839 (0) Looking for candidates to backup in: /home/ulta/public_html/wp-content/uploads
+0022.841 (0) finding files: wpcf7_uploads: adding to list (1)
+0022.842 (0) finding files: 2016: adding to list (2)
+0022.844 (0) finding files: 2021: adding to list (3)
+0022.845 (0) finding files: 2020: adding to list (4)
+0022.846 (0) finding files: 2017: adding to list (5)
+0022.847 (0) finding files: 2022: adding to list (6)
+0022.849 (0) finding files: 2023: adding to list (7)
+0022.850 (0) finding files: resized: adding to list (8)
+0022.851 (0) finding files: 2018: adding to list (9)
+0022.853 (0) finding files: 2019: adding to list (10)
+0022.854 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0022.891 (0) Total entities for the zip file: 100 directories, 1925 files (0 skipped as non-modified), 319 MB
+0022.896 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0022.899 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0022.903 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 1925 files batched, 285 (285) added so far); re-opening (prior size: 0 KB)
+0023.177 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: size is now: 25.50 MB
+0023.185 (0) A useful amount of data was added after this amount of zip processing: 1.2 s (normalised: 1.1 s, rate: 22336.7 KB/s)
+0023.189 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.1643710136414, normalised_time=1.1460956703577, max_time=23.186659097672, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0023.192 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 300 files added (on-disk size: 26082.4 KB)
+0023.196 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 400 files added (on-disk size: 26082.4 KB)
+0023.199 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 500 files added (on-disk size: 26082.4 KB)
+0023.202 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 600 files added (on-disk size: 26082.4 KB)
+0023.206 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 700 files added (on-disk size: 26082.4 KB)
+0023.210 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 800 files added (on-disk size: 26082.4 KB)
+0023.214 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 900 files added (on-disk size: 26082.4 KB)
+0023.218 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 1000 files added (on-disk size: 26082.4 KB)
+0023.222 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 1100 files added (on-disk size: 26082.4 KB)
+0023.226 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 1200 files added (on-disk size: 26082.4 KB)
+0023.229 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (59.6 MB, 1925 files batched, 1001 (1286) added so far); re-opening (prior size: 26082.4 KB)
+0024.032 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: size is now: 85.30 MB
+0024.040 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 1300 files added (on-disk size: 87350 KB)
+0024.044 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 1400 files added (on-disk size: 87350 KB)
+0024.047 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 1500 files added (on-disk size: 87350 KB)
+0024.052 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 1600 files added (on-disk size: 87350 KB)
+0024.057 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 1700 files added (on-disk size: 87350 KB)
+0024.061 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 1800 files added (on-disk size: 87350 KB)
+0024.064 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.5 MB, 1925 files batched, 548 (1834) added so far); re-opening (prior size: 87350 KB)
+0026.205 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: size is now: 285.90 MB
+0026.211 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 93743.4 KB/s)
+0026.212 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.1896269321442, normalised_time=2.1846863049517, max_time=26.211766004562, data points known=1, max_bytes=209715200)
+0026.216 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.tmp: 1900 files added (on-disk size: 292729.3 KB)
+0028.116 (0) Creating zip file manifest (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.list-temp.tmp)
+0028.124 (0) Successfully created zip file manifest (size: 106762)
+0031.964 (0) Created uploads zip (0) - 327117.4 KB in 9.1 s (35925 KB/s) (sha1: 7d9cd3c925fbbe9c16ab3a69619cb482c8b3a945, sha256: 0f962bb000f92623e2f100733ef62f85b431ff372c0dd402e12257fb96f722b0)
+0031.971 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0031.972 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-7282f0c7016211e6163a20aa11a4c79f)
+0031.973 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0031.975 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0032.354 (0) Dropbox: quota usage: used=1569.4 MB, total=2048 MB, available=478.6 MB
+0032.357 (0) Dropbox: Attempt to upload: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip to: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip
+0034.284 (0) Dropbox chunked upload: 3.1 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 10485760, 10240 KB)
+0035.374 (0) Dropbox chunked upload: 6.3 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 20971520, 10240 KB)
+0043.688 (0) Dropbox chunked upload: 9.4 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 31457280, 10240 KB)
+0045.654 (0) Dropbox chunked upload: 12.5 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 41943040, 10240 KB)
+0047.625 (0) Dropbox chunked upload: 15.7 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 52428800, 10240 KB)
+0049.004 (0) Dropbox chunked upload: 18.8 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 62914560, 10240 KB)
+0051.633 (0) Dropbox chunked upload: 21.9 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 73400320, 10240 KB)
+0053.368 (0) Dropbox chunked upload: 25 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 83886080, 10240 KB)
+0055.140 (0) Dropbox chunked upload: 28.2 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 94371840, 10240 KB)
+0056.839 (0) Dropbox chunked upload: 31.3 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 104857600, 10240 KB)
+0059.199 (0) Dropbox chunked upload: 34.4 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 115343360, 10240 KB)
+0061.524 (0) Dropbox chunked upload: 37.6 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 125829120, 10240 KB)
+0062.621 (0) Dropbox chunked upload: 40.7 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 136314880, 10240 KB)
+0064.007 (0) Dropbox chunked upload: 43.8 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 146800640, 10240 KB)
+0065.467 (0) Dropbox chunked upload: 47 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 157286400, 10240 KB)
+0067.049 (0) Dropbox chunked upload: 50.1 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 167772160, 10240 KB)
+0069.060 (0) Dropbox chunked upload: 53.2 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 178257920, 10240 KB)
+0071.050 (0) Dropbox chunked upload: 56.3 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 188743680, 10240 KB)
+0072.550 (0) Dropbox chunked upload: 59.5 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 199229440, 10240 KB)
+0074.459 (0) Dropbox chunked upload: 62.6 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 209715200, 10240 KB)
+0076.958 (0) Dropbox chunked upload: 65.7 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 220200960, 10240 KB)
+0078.139 (0) Dropbox chunked upload: 68.9 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 230686720, 10240 KB)
+0079.268 (0) Dropbox chunked upload: 72 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 241172480, 10240 KB)
+0080.961 (0) Dropbox chunked upload: 75.1 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 251658240, 10240 KB)
+0082.965 (0) Dropbox chunked upload: 78.3 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 262144000, 10240 KB)
+0084.215 (0) Dropbox chunked upload: 81.4 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 272629760, 10240 KB)
+0086.796 (0) Dropbox chunked upload: 84.5 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 283115520, 10240 KB)
+0089.200 (0) Dropbox chunked upload: 87.7 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 293601280, 10240 KB)
+0093.896 (0) Dropbox chunked upload: 90.8 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 304087040, 10240 KB)
+0098.595 (0) Dropbox chunked upload: 93.9 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 314572800, 10240 KB)
+0101.516 (0) Dropbox chunked upload: 97 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 325058560, 10240 KB)
+0102.745 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHKa1AhsIt1RAuBLq1doKOWH-mlRXvZ9dm0jerDkOddez2vA, 334968207, 10240 KB)
+0104.190 (0) Recording as successfully uploaded: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip
+0104.277 (0) Deleting local file: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip: OK
+0104.283 (0) Dropbox: File upload success (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip): 327117 KB in 71s (4547 KB/s)
+0104.294 (0) Beginning backup of other directories found in the content directory (index: 0)
+0104.296 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0104.297 (0) Looking for candidates to backup in: /home/ulta/public_html/wp-content
+0104.299 (0) finding files: themes-old: adding to list (1)
+0104.301 (0) finding files: wflogs-old: adding to list (2)
+0104.303 (0) finding files: plugins: skipping: this is the plugins directory
+0104.304 (0) finding files: cache: skipping: excluded by options
+0104.306 (0) finding files: themes: skipping: this is the themes directory
+0104.307 (0) finding files: maintenance.php-old: adding to list (3)
+0104.309 (0) finding files: updraft: skipping: this is the updraft directory
+0104.311 (0) finding files: cache_old_-old: adding to list (4)
+0104.313 (0) finding files: maintenance-old: adding to list (5)
+0104.314 (0) finding files: cache_: adding to list (6)
+0104.316 (0) finding files: uploads.zip: adding to list (7)
+0104.317 (0) finding files: cache_old_: adding to list (8)
+0104.319 (0) finding files: cache_-old: adding to list (9)
+0104.321 (0) finding files: index.php: adding to list (10)
+0104.323 (0) finding files: .htaccess: adding to list (11)
+0104.325 (0) finding files: aiowps_backups: skipping: excluded by options (glob)
+0104.327 (0) finding files: plugins-old: adding to list (12)
+0104.328 (0) finding files: maintenance.php: adding to list (13)
+0104.330 (0) finding files: upgrade: skipping: excluded by options
+0104.332 (0) finding files: .htaccess-old: adding to list (14)
+0104.333 (0) finding files: maintenance: adding to list (15)
+0104.334 (0) finding files: index.php-old: adding to list (16)
+0104.336 (0) finding files: uploads: skipping: this is the uploads directory
+0104.338 (0) finding files: wflogs: adding to list (17)
+0104.340 (0) finding files: uploads-old: adding to list (18)
+0104.369 (0) Total entities for the zip file: 45 directories, 1301 files (0 skipped as non-modified), 320.6 MB
+0104.373 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0104.377 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0104.381 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0104.384 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0104.389 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0104.394 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0104.402 (0) [Warning] A very large file was encountered: uploads.zip (size: 312.6 Mb)
+0104.404 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (316.6 MB, 1301 files batched, 649 (649) added so far); re-opening (prior size: 0 KB)
+0106.147 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: size is now: 316.00 MB
+0106.156 (0) A useful amount of data was added after this amount of zip processing: 2.1 s (normalised: 1.3 s, rate: 151884 KB/s)
+0106.158 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.134712934494, normalised_time=1.348397209772, max_time=106.15714001656, data points known=1, max_bytes=209715200)
+0106.163 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 700 files added (on-disk size: 323607.5 KB)
+0106.167 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 800 files added (on-disk size: 323607.5 KB)
+0106.171 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 900 files added (on-disk size: 323607.5 KB)
+0106.174 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 1000 files added (on-disk size: 323607.5 KB)
+0106.177 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 1100 files added (on-disk size: 323607.5 KB)
+0106.180 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 1200 files added (on-disk size: 323607.5 KB)
+0106.183 (0) Zip: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.tmp: 1300 files added (on-disk size: 323607.5 KB)
+0107.454 (0) Creating zip file manifest (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.list-temp.tmp)
+0107.755 (0) Successfully created zip file manifest (size: 45826)
+0111.432 (0) Created others zip (0) - 327055.1 KB in 7.1 s (46149.5 KB/s) (sha1: 509ebf4477e493f13b32d6441caa649aa053264c, sha256: e9e3962d6f4d6f62ec1010442e5fe06e9c1bc9a96b48f61185d54d2533e91b01)
+0111.440 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0111.442 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-7282f0c7016211e6163a20aa11a4c79f)
+0111.444 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0111.446 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0111.821 (0) Dropbox: quota usage: used=1888.9 MB, total=2048 MB, available=159.1 MB
+0111.825 (0) Dropbox: Attempt to upload: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip to: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip
+0114.416 (0) Dropbox chunked upload: 3.1 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 10485760, 10240 KB)
+0116.776 (0) Dropbox chunked upload: 6.3 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 20971520, 10240 KB)
+0119.937 (0) Dropbox chunked upload: 9.4 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 31457280, 10240 KB)
+0122.283 (0) Dropbox chunked upload: 12.5 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 41943040, 10240 KB)
+0124.763 (0) Dropbox chunked upload: 15.7 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 52428800, 10240 KB)
+0126.923 (0) Dropbox chunked upload: 18.8 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 62914560, 10240 KB)
+0128.560 (0) Dropbox chunked upload: 21.9 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 73400320, 10240 KB)
+0130.060 (0) Dropbox chunked upload: 25 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 83886080, 10240 KB)
+0131.370 (0) Dropbox chunked upload: 28.2 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 94371840, 10240 KB)
+0133.632 (0) Dropbox chunked upload: 31.3 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 104857600, 10240 KB)
+0136.396 (0) Dropbox chunked upload: 34.4 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 115343360, 10240 KB)
+0138.606 (0) Dropbox chunked upload: 37.6 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 125829120, 10240 KB)
+0140.883 (0) Dropbox chunked upload: 40.7 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 136314880, 10240 KB)
+0142.800 (0) Dropbox chunked upload: 43.8 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 146800640, 10240 KB)
+0145.978 (0) Dropbox chunked upload: 47 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 157286400, 10240 KB)
+0147.443 (0) Dropbox chunked upload: 50.1 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 167772160, 10240 KB)
+0149.234 (0) Dropbox chunked upload: 53.2 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 178257920, 10240 KB)
+0151.539 (0) Dropbox chunked upload: 56.4 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 188743680, 10240 KB)
+0153.257 (0) Dropbox chunked upload: 59.5 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 199229440, 10240 KB)
+0155.049 (0) Dropbox chunked upload: 62.6 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 209715200, 10240 KB)
+0156.557 (0) Dropbox chunked upload: 65.8 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 220200960, 10240 KB)
+0158.974 (0) Dropbox chunked upload: 68.9 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 230686720, 10240 KB)
+0160.673 (0) Dropbox chunked upload: 72 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 241172480, 10240 KB)
+0162.914 (0) Dropbox chunked upload: 75.1 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 251658240, 10240 KB)
+0164.348 (0) Dropbox chunked upload: 78.3 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 262144000, 10240 KB)
+0165.447 (0) Dropbox chunked upload: 81.4 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 272629760, 10240 KB)
+0167.612 (0) Dropbox chunked upload: 84.5 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 283115520, 10240 KB)
+0168.809 (0) Dropbox chunked upload: 87.7 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 293601280, 10240 KB)
+0170.601 (0) Dropbox chunked upload: 90.8 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 304087040, 10240 KB)
+0173.113 (0) Dropbox chunked upload: 93.9 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 314572800, 10240 KB)
+0174.333 (0) Dropbox chunked upload: 97.1 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 325058560, 10240 KB)
+0177.136 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHKT8u07l5vRJlzP2wGfch1QNcwiZUuJKK_burrczUXiZDyQ, 334904473, 10240 KB)
+0178.699 (0) Recording as successfully uploaded: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip
+0178.805 (0) Deleting local file: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip: OK
+0178.815 (0) Dropbox: File upload success (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip): 327055 KB in 66s (4882 KB/s)
+0178.837 (0) Saving backup status to database (elements: 8)
+0178.845 (0) Beginning creation of database dump (WordPress DB)
+0178.848 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0178.853 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0178.904 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\n/*!50717 SELECT COUNT(*) INTO @rocksdb_has_p_s_session_variables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'performance_schema' AND TABL (truncated - 2458 bytes total)
+0178.907 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0178.948 (0) Table wp_options: Total expected rows (via COUNT): 364
+0178.950 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0178.970 (0) Table wp_options: Rows added in this batch (next record: 162385): 360 (uncompressed bytes in this segment=187815) in 0.03 seconds
+0178.981 (0) Table wp_options: finishing file(s) (2, 56.9 KB)
+0178.985 (0) Table wp_users: Total expected rows (via COUNT): 2
+0178.987 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0178.991 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1252) in 0.01 seconds
+0178.998 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0179.009 (0) Table wp_usermeta: Total expected rows (via COUNT): 90
+0179.010 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0179.015 (0) Table wp_usermeta: Rows added in this batch (next record: 123): 90 (uncompressed bytes in this segment=7574) in 0.01 seconds
+0179.022 (0) Table wp_usermeta: finishing file(s) (2, 2.6 KB)
+0179.029 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0179.033 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=589) in 0.01 seconds
+0179.041 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0179.047 (0) Table wp_comments: Total expected rows (via COUNT): 11
+0179.049 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0179.054 (0) Table wp_comments: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=5104) in 0.01 seconds
+0179.061 (0) Table wp_comments: finishing file(s) (2, 1.6 KB)
+0179.067 (0) Table wp_links: Total expected rows (via COUNT): 0
+0179.072 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=997) in 0.01 seconds
+0179.078 (0) Table wp_links: finishing file(s) (2, 0.4 KB)
+0179.085 (0) Table wp_postmeta: Total expected rows (approximate): 1214
+0179.105 (0) Table wp_postmeta: Rows added in this batch (next record: 1933): 1305 (uncompressed bytes in this segment=475380) in 0.02 seconds
+0179.115 (0) Table wp_postmeta: finishing file(s) (2, 38 KB)
+0179.134 (0) Table wp_posts: Total expected rows (via COUNT): 892
+0179.210 (0) Table wp_posts: Rows added in this batch (next record: 1073): 892 (uncompressed bytes in this segment=2086429) in 0.09 seconds
+0179.222 (0) Table wp_posts: finishing file(s) (2, 206.2 KB)
+0179.230 (0) Table wp_term_relationships: Total expected rows (approximate): 11
+0179.236 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 11 (uncompressed bytes in this segment=811) in 0.01 seconds
+0179.249 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0179.259 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 7
+0179.261 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0179.266 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1052) in 0.01 seconds
+0179.276 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0179.286 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0179.291 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=562) in 0.01 seconds
+0179.303 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0179.312 (0) Table wp_terms: Total expected rows (via COUNT): 7
+0179.315 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0179.321 (0) Table wp_terms: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=891) in 0.01 seconds
+0179.331 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0179.340 (0) Table wp_UPCP_Catalogue_Items: Total expected rows (via COUNT): 32
+0179.343 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0179.349 (0) Table wp_UPCP_Catalogue_Items: Rows added in this batch (next record: 187): 32 (uncompressed bytes in this segment=1545) in 0.01 seconds
+0179.359 (0) Table wp_UPCP_Catalogue_Items: finishing file(s) (2, 0.6 KB)
+0179.366 (0) Table wp_UPCP_Catalogues: Total expected rows (via COUNT): 26
+0179.369 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0179.374 (0) Table wp_UPCP_Catalogues: Rows added in this batch (next record: 30): 26 (uncompressed bytes in this segment=17896) in 0.01 seconds
+0179.382 (0) Table wp_UPCP_Catalogues: finishing file(s) (2, 6.7 KB)
+0179.389 (0) Table wp_UPCP_Categories: Total expected rows (via COUNT): 20
+0179.390 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0179.399 (0) Table wp_UPCP_Categories: Rows added in this batch (next record: 33): 20 (uncompressed bytes in this segment=30690) in 0.01 seconds
+0179.409 (0) Table wp_UPCP_Categories: finishing file(s) (2, 9.6 KB)
+0179.418 (0) Table wp_UPCP_Custom_Fields: Total expected rows (via COUNT): 0
+0179.424 (0) Table wp_UPCP_Custom_Fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=869) in 0.01 seconds
+0179.434 (0) Table wp_UPCP_Custom_Fields: finishing file(s) (2, 0.4 KB)
+0179.443 (0) Table wp_UPCP_Fields_Meta: Total expected rows (via COUNT): 0
+0179.450 (0) Table wp_UPCP_Fields_Meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=530) in 0.01 seconds
+0179.460 (0) Table wp_UPCP_Fields_Meta: finishing file(s) (2, 0.3 KB)
+0179.469 (0) Table wp_UPCP_Item_Images: Total expected rows (via COUNT): 0
+0179.476 (0) Table wp_UPCP_Item_Images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=596) in 0.01 seconds
+0179.485 (0) Table wp_UPCP_Item_Images: finishing file(s) (2, 0.3 KB)
+0179.492 (0) Table wp_UPCP_Items: Total expected rows (via COUNT): 170
+0179.493 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0179.507 (0) Table wp_UPCP_Items: Rows added in this batch (next record: 373): 170 (uncompressed bytes in this segment=41181) in 0.02 seconds
+0179.516 (0) Table wp_UPCP_Items: finishing file(s) (2, 6.2 KB)
+0179.522 (0) Table wp_UPCP_SubCategories: Total expected rows (via COUNT): 0
+0179.527 (0) Table wp_UPCP_SubCategories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=896) in 0.01 seconds
+0179.537 (0) Table wp_UPCP_SubCategories: finishing file(s) (2, 0.4 KB)
+0179.547 (0) Table wp_UPCP_Tag_Groups: Total expected rows (via COUNT): 0
+0179.549 (0) Table wp_UPCP_Tag_Groups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=594) in 0.00 seconds
+0179.558 (0) Table wp_UPCP_Tag_Groups: finishing file(s) (2, 0.3 KB)
+0179.565 (0) Table wp_UPCP_Tagged_Items: Total expected rows (via COUNT): 0
+0179.568 (0) Table wp_UPCP_Tagged_Items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=536) in 0.00 seconds
+0179.575 (0) Table wp_UPCP_Tagged_Items: finishing file(s) (2, 0.3 KB)
+0179.583 (0) Table wp_UPCP_Tags: Total expected rows (via COUNT): 0
+0179.586 (0) Table wp_UPCP_Tags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.00 seconds
+0179.594 (0) Table wp_UPCP_Tags: finishing file(s) (2, 0.4 KB)
+0179.600 (0) Table wp_UPCP_Videos: Total expected rows (via COUNT): 0
+0179.602 (0) Table wp_UPCP_Videos: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=559) in 0.00 seconds
+0179.607 (0) Table wp_UPCP_Videos: finishing file(s) (2, 0.3 KB)
+0179.612 (0) Table wp_advps_optionset: Total expected rows (via COUNT): 4
+0179.614 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0179.618 (0) Table wp_advps_optionset: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=11697) in 0.01 seconds
+0179.624 (0) Table wp_advps_optionset: finishing file(s) (2, 1.5 KB)
+0179.630 (0) Table wp_advps_thumbnail: Total expected rows (via COUNT): 1
+0179.632 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0179.634 (0) Table wp_advps_thumbnail: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=621) in 0.00 seconds
+0179.640 (0) Table wp_advps_thumbnail: finishing file(s) (2, 0.4 KB)
+0179.645 (0) Table wp_aiowps_audit_log: Total expected rows (approximate): 891083
+0179.648 (0) [Warning] Table wp_aiowps_audit_log has very many rows (891083) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0183.623 (0) Table wp_aiowps_audit_log: binary mysqldump finished (writes: 153, bytes 104508026, return code 0) in 3.97 seconds
+0183.629 (0) Table wp_aiowps_audit_log: finishing file(s) (1, 4377.7 KB)
+0183.637 (0) Table wp_aiowps_debug_log: Total expected rows (via COUNT): 0
+0183.643 (0) Table wp_aiowps_debug_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=707) in 0.01 seconds
+0183.650 (0) Table wp_aiowps_debug_log: finishing file(s) (2, 0.4 KB)
+0183.660 (0) Table wp_aiowps_events: Total expected rows (via COUNT): 0
+0183.661 (0) Table wp_aiowps_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=987) in 0.01 seconds
+0183.669 (0) Table wp_aiowps_events: finishing file(s) (2, 0.4 KB)
+0183.676 (0) Table wp_aiowps_failed_logins: Total expected rows (approximate): 987107
+0183.680 (0) [Warning] Table wp_aiowps_failed_logins has very many rows (987107) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0185.791 (0) Table wp_aiowps_failed_logins: binary mysqldump finished (writes: 98, bytes 55773965, return code 0) in 2.11 seconds
+0185.799 (0) Table wp_aiowps_failed_logins: finishing file(s) (1, 4611.3 KB)
+0185.807 (0) Table wp_aiowps_global_meta: Total expected rows (via COUNT): 0
+0185.812 (0) Table wp_aiowps_global_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1148) in 0.01 seconds
+0185.822 (0) Table wp_aiowps_global_meta: finishing file(s) (2, 0.4 KB)
+0185.828 (0) Table wp_aiowps_login_activity: Total expected rows (via COUNT): 65
+0185.830 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0185.835 (0) Table wp_aiowps_login_activity: Rows added in this batch (next record: 65): 65 (uncompressed bytes in this segment=6822) in 0.01 seconds
+0185.841 (0) Table wp_aiowps_login_activity: finishing file(s) (2, 1.5 KB)
+0185.850 (0) Table wp_aiowps_login_lockdown: Total expected rows (via COUNT): 0
+0185.856 (0) Table wp_aiowps_login_lockdown: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=932) in 0.01 seconds
+0185.863 (0) Table wp_aiowps_login_lockdown: finishing file(s) (2, 0.4 KB)
+0185.869 (0) Table wp_aiowps_permanent_block: Total expected rows (via COUNT): 0
+0185.871 (0) Table wp_aiowps_permanent_block: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=817) in 0.00 seconds
+0185.878 (0) Table wp_aiowps_permanent_block: finishing file(s) (2, 0.4 KB)
+0185.885 (0) Table wp_hugeit_maps_circles: Total expected rows (via COUNT): 1
+0185.887 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0185.891 (0) Table wp_hugeit_maps_circles: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1565) in 0.01 seconds
+0185.897 (0) Table wp_hugeit_maps_circles: finishing file(s) (2, 0.6 KB)
+0185.904 (0) Table wp_hugeit_maps_directions: Total expected rows (via COUNT): 0
+0185.909 (0) Table wp_hugeit_maps_directions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1156) in 0.01 seconds
+0185.918 (0) Table wp_hugeit_maps_directions: finishing file(s) (2, 0.5 KB)
+0185.926 (0) Table wp_hugeit_maps_maps: Total expected rows (via COUNT): 1
+0185.928 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0185.933 (0) Table wp_hugeit_maps_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2473) in 0.01 seconds
+0185.940 (0) Table wp_hugeit_maps_maps: finishing file(s) (2, 0.8 KB)
+0185.947 (0) Table wp_hugeit_maps_markers: Total expected rows (via COUNT): 1
+0185.949 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0185.952 (0) Table wp_hugeit_maps_markers: Rows added in this batch (next record: 3): 1 (uncompressed bytes in this segment=1025) in 0.01 seconds
+0185.959 (0) Table wp_hugeit_maps_markers: finishing file(s) (2, 0.5 KB)
+0185.972 (0) Table wp_hugeit_maps_polygons: Total expected rows (via COUNT): 1
+0185.974 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0185.977 (0) Table wp_hugeit_maps_polygons: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1844) in 0.01 seconds
+0185.988 (0) Table wp_hugeit_maps_polygons: finishing file(s) (2, 0.7 KB)
+0185.995 (0) Table wp_hugeit_maps_polylines: Total expected rows (via COUNT): 1
+0185.996 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0185.999 (0) Table wp_hugeit_maps_polylines: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2374) in 0.01 seconds
+0186.006 (0) Table wp_hugeit_maps_polylines: finishing file(s) (2, 1.1 KB)
+0186.012 (0) Table wp_nextend2_image_storage: Total expected rows (via COUNT): 22
+0186.014 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0186.017 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=9522) in 0.01 seconds
+0186.025 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 1.4 KB)
+0186.030 (0) Table wp_nextend2_section_storage: Total expected rows (via COUNT): 3
+0186.032 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0186.035 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10002): 3 (uncompressed bytes in this segment=1047) in 0.01 seconds
+0186.041 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 0.5 KB)
+0186.046 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0186.050 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=591) in 0.00 seconds
+0186.055 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.3 KB)
+0186.061 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 2
+0186.064 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0186.070 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=8478) in 0.01 seconds
+0186.078 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 1.9 KB)
+0186.083 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0186.089 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=667) in 0.01 seconds
+0186.098 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.3 KB)
+0186.113 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (via COUNT): 8
+0186.114 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0186.119 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 21): 8 (uncompressed bytes in this segment=21382) in 0.01 seconds
+0186.127 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 2.6 KB)
+0186.133 (0) Table wp_nm_personalized: Total expected rows (via COUNT): 0
+0186.137 (0) Table wp_nm_personalized: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=770) in 0.01 seconds
+0186.143 (0) Table wp_nm_personalized: finishing file(s) (2, 0.4 KB)
+0186.149 (0) Table wp_pvc_daily: Total expected rows (via COUNT): 0
+0186.151 (0) Table wp_pvc_daily: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=552) in 0.00 seconds
+0186.157 (0) Table wp_pvc_daily: finishing file(s) (2, 0.4 KB)
+0186.161 (0) Table wp_pvc_total: Total expected rows (via COUNT): 192
+0186.163 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0186.166 (0) Table wp_pvc_total: Rows added in this batch (next record: 212): 192 (uncompressed bytes in this segment=4077) in 0.01 seconds
+0186.171 (0) Table wp_pvc_total: finishing file(s) (2, 1.5 KB)
+0186.175 (0) Table wp_wfBadLeechers: Total expected rows (approximate): 0
+0186.182 (0) Table wp_wfBadLeechers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=498) in 0.01 seconds
+0186.187 (0) Table wp_wfBadLeechers: finishing file(s) (2, 0.3 KB)
+0186.191 (0) Table wp_wfBlockedIPLog: Total expected rows (approximate): 12
+0186.194 (0) Table wp_wfBlockedIPLog: Rows added in this batch (next record: 1000): 12 (uncompressed bytes in this segment=1263) in 0.00 seconds
+0186.199 (0) Table wp_wfBlockedIPLog: finishing file(s) (2, 0.5 KB)
+0186.203 (0) Table wp_wfBlocks: Total expected rows (approximate): 0
+0186.205 (0) Table wp_wfBlocks: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=797) in 0.00 seconds
+0186.210 (0) Table wp_wfBlocks: finishing file(s) (2, 0.5 KB)
+0186.214 (0) Table wp_wfBlocksAdv: Total expected rows (via COUNT): 0
+0186.216 (0) Table wp_wfBlocksAdv: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=618) in 0.00 seconds
+0186.222 (0) Table wp_wfBlocksAdv: finishing file(s) (2, 0.3 KB)
+0186.226 (0) Table wp_wfConfig: Total expected rows (approximate): 161
+0186.231 (0) Table wp_wfConfig: Rows added in this batch (next record: 1000): 161 (uncompressed bytes in this segment=14230) in 0.01 seconds
+0186.239 (0) Table wp_wfConfig: finishing file(s) (2, 3.8 KB)
+0186.247 (0) Table wp_wfCrawlers: Total expected rows (approximate): 25
+0186.250 (0) Table wp_wfCrawlers: Rows added in this batch (next record: 1000): 25 (uncompressed bytes in this segment=3975) in 0.00 seconds
+0186.259 (0) Table wp_wfCrawlers: finishing file(s) (2, 0.8 KB)
+0186.265 (0) Table wp_wfHits: Total expected rows (approximate): 1674
+0186.312 (0) Table wp_wfHits: Rows added in this batch (next record: 103987): 1705 (uncompressed bytes in this segment=474120) in 0.05 seconds
+0186.324 (0) Table wp_wfHits: finishing file(s) (2, 41.2 KB)
+0186.332 (0) Table wp_wfIssues: Total expected rows (via COUNT): 18
+0186.334 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0186.340 (0) Table wp_wfIssues: Rows added in this batch (next record: 7667): 18 (uncompressed bytes in this segment=17332) in 0.01 seconds
+0186.348 (0) Table wp_wfIssues: finishing file(s) (2, 4 KB)
+0186.352 (0) Table wp_wfLeechers: Total expected rows (approximate): 311
+0186.358 (0) Table wp_wfLeechers: Rows added in this batch (next record: 1000): 311 (uncompressed bytes in this segment=16689) in 0.01 seconds
+0186.365 (0) Table wp_wfLeechers: finishing file(s) (2, 2.2 KB)
+0186.370 (0) Table wp_wfLockedOut: Total expected rows (approximate): 0
+0186.373 (0) Table wp_wfLockedOut: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=568) in 0.00 seconds
+0186.380 (0) Table wp_wfLockedOut: finishing file(s) (2, 0.3 KB)
+0186.386 (0) Table wp_wfLocs: Total expected rows (approximate): 0
+0186.389 (0) Table wp_wfLocs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=682) in 0.00 seconds
+0186.398 (0) Table wp_wfLocs: finishing file(s) (2, 0.4 KB)
+0186.405 (0) Table wp_wfLogins: Total expected rows (via COUNT): 464
+0186.408 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0186.422 (0) Table wp_wfLogins: Rows added in this batch (next record: 1592): 464 (uncompressed bytes in this segment=92584) in 0.02 seconds
+0186.431 (0) Table wp_wfLogins: finishing file(s) (2, 11.2 KB)
+0186.438 (0) Table wp_wfReverseCache: Total expected rows (approximate): 2
+0186.443 (0) Table wp_wfReverseCache: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=713) in 0.01 seconds
+0186.450 (0) Table wp_wfReverseCache: finishing file(s) (2, 0.4 KB)
+0186.457 (0) Table wp_wfSNIPCache: Total expected rows (via COUNT): 0
+0186.460 (0) Table wp_wfSNIPCache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.00 seconds
+0186.467 (0) Table wp_wfSNIPCache: finishing file(s) (2, 0.4 KB)
+0186.474 (0) Table wp_wfScanners: Total expected rows (approximate): 40
+0186.479 (0) Table wp_wfScanners: Rows added in this batch (next record: 1000): 40 (uncompressed bytes in this segment=2600) in 0.01 seconds
+0186.487 (0) Table wp_wfScanners: finishing file(s) (2, 0.7 KB)
+0186.493 (0) Table wp_wfStatus: Total expected rows (approximate): 1070
+0186.513 (0) Table wp_wfStatus: Rows added in this batch (next record: 60542): 1070 (uncompressed bytes in this segment=94735) in 0.02 seconds
+0186.523 (0) Table wp_wfStatus: finishing file(s) (2, 14.5 KB)
+0186.531 (0) Table wp_wfThrottleLog: Total expected rows (approximate): 0
+0186.534 (0) Table wp_wfThrottleLog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=605) in 0.00 seconds
+0186.540 (0) Table wp_wfThrottleLog: finishing file(s) (2, 0.3 KB)
+0186.553 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 483
+0186.555 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0186.587 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 483): 483 (uncompressed bytes in this segment=433270) in 0.04 seconds
+0186.597 (0) Table wp_yoast_indexable: finishing file(s) (2, 50.1 KB)
+0186.605 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 479
+0186.613 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 481 (uncompressed bytes in this segment=8884) in 0.01 seconds
+0186.620 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 1.5 KB)
+0186.627 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0186.628 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0186.633 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1265) in 0.01 seconds
+0186.641 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0186.649 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0186.655 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.01 seconds
+0186.664 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0186.671 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 1970
+0186.705 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 1970): 1970 (uncompressed bytes in this segment=264252) in 0.04 seconds
+0186.716 (0) Table wp_yoast_seo_links: finishing file(s) (2, 18.8 KB)
+0186.720 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_options.table.tmpr162386.gz (1/71/fopen): adding to final database dump
+0186.723 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_options.table.gz (2/71/fopen): adding to final database dump
+0186.724 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_users.table.tmpr3.gz (3/71/fopen): adding to final database dump
+0186.727 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_users.table.gz (4/71/fopen): adding to final database dump
+0186.729 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_usermeta.table.tmpr124.gz (5/71/fopen): adding to final database dump
+0186.730 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_usermeta.table.gz (6/71/fopen): adding to final database dump
+0186.732 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_commentmeta.table.tmpr0.gz (7/71/fopen): adding to final database dump
+0186.734 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_commentmeta.table.gz (8/71/fopen): adding to final database dump
+0186.735 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_comments.table.tmpr12.gz (9/71/fopen): adding to final database dump
+0186.740 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_comments.table.gz (10/71/fopen): adding to final database dump
+0186.742 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_links.table.tmpr0.gz (11/71/fopen): adding to final database dump
+0186.746 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_links.table.gz (12/71/fopen): adding to final database dump
+0186.749 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_postmeta.table.tmpr1934.gz (13/71/fopen): adding to final database dump
+0186.752 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_postmeta.table.gz (14/71/fopen): adding to final database dump
+0186.754 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_posts.table.tmpr1074.gz (15/71/fopen): adding to final database dump
+0186.761 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_posts.table.gz (16/71/fopen): adding to final database dump
+0186.764 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_term_relationships.table.tmpr100001.gz (17/71/fopen): adding to final database dump
+0186.766 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_term_relationships.table.gz (18/71/fopen): adding to final database dump
+0186.768 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_term_taxonomy.table.tmpr8.gz (19/71/fopen): adding to final database dump
+0186.771 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_term_taxonomy.table.gz (20/71/fopen): adding to final database dump
+0186.772 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_termmeta.table.tmpr0.gz (21/71/fopen): adding to final database dump
+0186.773 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_termmeta.table.gz (22/71/fopen): adding to final database dump
+0186.775 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_terms.table.tmpr8.gz (23/71/fopen): adding to final database dump
+0186.776 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_terms.table.gz (24/71/fopen): adding to final database dump
+0186.777 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Catalogue_Items.table.tmpr188.gz (25/71/fopen): adding to final database dump
+0186.778 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Catalogue_Items.table.gz (26/71/fopen): adding to final database dump
+0186.779 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Catalogues.table.tmpr31.gz (27/71/fopen): adding to final database dump
+0186.781 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Catalogues.table.gz (28/71/fopen): adding to final database dump
+0186.782 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Categories.table.tmpr34.gz (29/71/fopen): adding to final database dump
+0186.783 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Categories.table.gz (30/71/fopen): adding to final database dump
+0186.784 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Custom_Fields.table.tmpr0.gz (31/71/fopen): adding to final database dump
+0186.785 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Custom_Fields.table.gz (32/71/fopen): adding to final database dump
+0186.786 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Fields_Meta.table.tmpr0.gz (33/71/fopen): adding to final database dump
+0186.788 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Fields_Meta.table.gz (34/71/fopen): adding to final database dump
+0186.789 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Item_Images.table.tmpr0.gz (35/71/fopen): adding to final database dump
+0186.790 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Item_Images.table.gz (36/71/fopen): adding to final database dump
+0186.791 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Items.table.tmpr374.gz (37/71/fopen): adding to final database dump
+0186.793 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Items.table.gz (38/71/fopen): adding to final database dump
+0186.794 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_SubCategories.table.tmpr0.gz (39/71/fopen): adding to final database dump
+0186.795 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_SubCategories.table.gz (40/71/fopen): adding to final database dump
+0186.796 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Tag_Groups.table.tmpr0.gz (41/71/fopen): adding to final database dump
+0186.798 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Tag_Groups.table.gz (42/71/fopen): adding to final database dump
+0186.799 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Tagged_Items.table.tmpr0.gz (43/71/fopen): adding to final database dump
+0186.800 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Tagged_Items.table.gz (44/71/fopen): adding to final database dump
+0186.802 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Tags.table.tmpr0.gz (45/71/fopen): adding to final database dump
+0186.803 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Tags.table.gz (46/71/fopen): adding to final database dump
+0186.804 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Videos.table.tmpr0.gz (47/71/fopen): adding to final database dump
+0186.805 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_UPCP_Videos.table.gz (48/71/fopen): adding to final database dump
+0186.806 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_advps_optionset.table.tmpr5.gz (49/71/fopen): adding to final database dump
+0186.807 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_advps_optionset.table.gz (50/71/fopen): adding to final database dump
+0186.808 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_advps_thumbnail.table.tmpr2.gz (51/71/fopen): adding to final database dump
+0186.810 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_advps_thumbnail.table.gz (52/71/fopen): adding to final database dump
+0186.811 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_audit_log.table.gz (53/71/fopen): adding to final database dump
+0186.842 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_debug_log.table.tmpr0.gz (54/71/fopen): adding to final database dump
+0186.845 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_debug_log.table.gz (55/71/fopen): adding to final database dump
+0186.847 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_events.table.tmpr0.gz (56/71/fopen): adding to final database dump
+0186.849 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_events.table.gz (57/71/fopen): adding to final database dump
+0186.851 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_failed_logins.table.gz (58/71/fopen): adding to final database dump
+0186.888 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_global_meta.table.tmpr0.gz (59/71/fopen): adding to final database dump
+0186.891 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_global_meta.table.gz (60/71/fopen): adding to final database dump
+0186.893 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_login_activity.table.tmpr66.gz (61/71/fopen): adding to final database dump
+0186.895 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_login_activity.table.gz (62/71/fopen): adding to final database dump
+0186.897 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_login_lockdown.table.tmpr0.gz (63/71/fopen): adding to final database dump
+0186.899 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_login_lockdown.table.gz (64/71/fopen): adding to final database dump
+0186.900 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_permanent_block.table.tmpr0.gz (65/71/fopen): adding to final database dump
+0186.902 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_aiowps_permanent_block.table.gz (66/71/fopen): adding to final database dump
+0186.905 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_hugeit_maps_circles.table.tmpr2.gz (67/71/fopen): adding to final database dump
+0186.907 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_hugeit_maps_circles.table.gz (68/71/fopen): adding to final database dump
+0186.908 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_hugeit_maps_directions.table.tmpr0.gz (69/71/fopen): adding to final database dump
+0186.910 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_hugeit_maps_directions.table.gz (70/71/fopen): adding to final database dump
+0186.912 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_hugeit_maps_maps.table.tmpr2.gz (71/71/fopen): adding to final database dump
+0186.914 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_hugeit_maps_maps.table.gz (72/71/fopen): adding to final database dump
+0186.916 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_hugeit_maps_markers.table.tmpr4.gz (73/71/fopen): adding to final database dump
+0186.918 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_hugeit_maps_markers.table.gz (74/71/fopen): adding to final database dump
+0186.919 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_hugeit_maps_polygons.table.tmpr2.gz (75/71/fopen): adding to final database dump
+0186.921 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_hugeit_maps_polygons.table.gz (76/71/fopen): adding to final database dump
+0186.923 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_hugeit_maps_polylines.table.tmpr2.gz (77/71/fopen): adding to final database dump
+0186.925 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_hugeit_maps_polylines.table.gz (78/71/fopen): adding to final database dump
+0186.927 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nextend2_image_storage.table.tmpr23.gz (79/71/fopen): adding to final database dump
+0186.929 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nextend2_image_storage.table.gz (80/71/fopen): adding to final database dump
+0186.931 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nextend2_section_storage.table.tmpr10003.gz (81/71/fopen): adding to final database dump
+0186.933 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nextend2_section_storage.table.gz (82/71/fopen): adding to final database dump
+0186.935 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (83/71/fopen): adding to final database dump
+0186.937 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nextend2_smartslider3_generators.table.gz (84/71/fopen): adding to final database dump
+0186.939 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nextend2_smartslider3_sliders.table.tmpr3.gz (85/71/fopen): adding to final database dump
+0186.940 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nextend2_smartslider3_sliders.table.gz (86/71/fopen): adding to final database dump
+0186.942 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (87/71/fopen): adding to final database dump
+0186.944 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (88/71/fopen): adding to final database dump
+0186.946 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nextend2_smartslider3_slides.table.tmpr22.gz (89/71/fopen): adding to final database dump
+0186.947 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nextend2_smartslider3_slides.table.gz (90/71/fopen): adding to final database dump
+0186.949 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nm_personalized.table.tmpr0.gz (91/71/fopen): adding to final database dump
+0186.950 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_nm_personalized.table.gz (92/71/fopen): adding to final database dump
+0186.951 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_pvc_daily.table.tmpr0.gz (93/71/fopen): adding to final database dump
+0186.953 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_pvc_daily.table.gz (94/71/fopen): adding to final database dump
+0186.954 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_pvc_total.table.tmpr213.gz (95/71/fopen): adding to final database dump
+0186.956 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_pvc_total.table.gz (96/71/fopen): adding to final database dump
+0186.957 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfBadLeechers.table.tmpr1.gz (97/71/fopen): adding to final database dump
+0186.959 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfBadLeechers.table.gz (98/71/fopen): adding to final database dump
+0186.960 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfBlockedIPLog.table.tmpr1001.gz (99/71/fopen): adding to final database dump
+0186.963 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfBlockedIPLog.table.gz (100/71/fopen): adding to final database dump
+0186.964 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfBlocks.table.tmpr1001.gz (101/71/fopen): adding to final database dump
+0186.965 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfBlocks.table.gz (102/71/fopen): adding to final database dump
+0186.966 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfBlocksAdv.table.tmpr0.gz (103/71/fopen): adding to final database dump
+0186.967 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfBlocksAdv.table.gz (104/71/fopen): adding to final database dump
+0186.969 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfConfig.table.tmpr1001.gz (105/71/fopen): adding to final database dump
+0186.970 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfConfig.table.gz (106/71/fopen): adding to final database dump
+0186.971 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfCrawlers.table.tmpr1001.gz (107/71/fopen): adding to final database dump
+0186.972 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfCrawlers.table.gz (108/71/fopen): adding to final database dump
+0186.973 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfHits.table.tmpr103988.gz (109/71/fopen): adding to final database dump
+0186.975 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfHits.table.gz (110/71/fopen): adding to final database dump
+0186.976 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfIssues.table.tmpr7668.gz (111/71/fopen): adding to final database dump
+0186.978 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfIssues.table.gz (112/71/fopen): adding to final database dump
+0186.979 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfLeechers.table.tmpr1001.gz (113/71/fopen): adding to final database dump
+0186.981 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfLeechers.table.gz (114/71/fopen): adding to final database dump
+0186.982 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfLockedOut.table.tmpr1.gz (115/71/fopen): adding to final database dump
+0186.984 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfLockedOut.table.gz (116/71/fopen): adding to final database dump
+0186.985 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfLocs.table.tmpr1.gz (117/71/fopen): adding to final database dump
+0186.986 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfLocs.table.gz (118/71/fopen): adding to final database dump
+0186.988 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfLogins.table.tmpr1593.gz (119/71/fopen): adding to final database dump
+0186.989 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfLogins.table.gz (120/71/fopen): adding to final database dump
+0186.991 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfReverseCache.table.tmpr1001.gz (121/71/fopen): adding to final database dump
+0186.992 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfReverseCache.table.gz (122/71/fopen): adding to final database dump
+0186.993 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfSNIPCache.table.tmpr0.gz (123/71/fopen): adding to final database dump
+0186.994 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfSNIPCache.table.gz (124/71/fopen): adding to final database dump
+0186.995 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfScanners.table.tmpr1001.gz (125/71/fopen): adding to final database dump
+0186.997 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfScanners.table.gz (126/71/fopen): adding to final database dump
+0186.998 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfStatus.table.tmpr60543.gz (127/71/fopen): adding to final database dump
+0186.999 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfStatus.table.gz (128/71/fopen): adding to final database dump
+0187.001 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfThrottleLog.table.tmpr1.gz (129/71/fopen): adding to final database dump
+0187.002 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_wfThrottleLog.table.gz (130/71/fopen): adding to final database dump
+0187.003 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_yoast_indexable.table.tmpr484.gz (131/71/fopen): adding to final database dump
+0187.005 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_yoast_indexable.table.gz (132/71/fopen): adding to final database dump
+0187.006 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (133/71/fopen): adding to final database dump
+0187.007 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_yoast_indexable_hierarchy.table.gz (134/71/fopen): adding to final database dump
+0187.008 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_yoast_migrations.table.tmpr25.gz (135/71/fopen): adding to final database dump
+0187.011 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_yoast_migrations.table.gz (136/71/fopen): adding to final database dump
+0187.012 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_yoast_primary_term.table.tmpr0.gz (137/71/fopen): adding to final database dump
+0187.013 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_yoast_primary_term.table.gz (138/71/fopen): adding to final database dump
+0187.014 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_yoast_seo_links.table.tmpr1971.gz (139/71/fopen): adding to final database dump
+0187.016 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db-table-wp_yoast_seo_links.table.gz (140/71/fopen): adding to final database dump
+0187.021 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db.gz: finished writing out complete database file (9494.6 KB)
+0187.163 (0) Total database tables backed up: 71 (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db.gz, size: 9722610, sha1: bacdc1077b26901451206c9dfbaee712bcb23919, sha256: 434d85e951324c0738a068e42d145db8d1d4db100f5d1cfc4b389932226c44e4)
+0187.183 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip: plugins: This file has already been successfully uploaded
+0187.185 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip: themes: This file has already been successfully uploaded
+0187.187 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip: uploads: This file has already been successfully uploaded
+0187.189 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip: others: This file has already been successfully uploaded
+0187.191 (0) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db.gz: db: This file has not yet been successfully uploaded: will queue
+0187.195 (0) Saving backup history. Total backup size: 692.1 MB
+0187.199 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0187.211 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0187.214 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-7282f0c7016211e6163a20aa11a4c79f)
+0187.216 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0187.238 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0187.537 (0) Dropbox: quota usage: used=2208.3 MB, total=2048 MB, available=-160.3 MB
+0187.539 (0) Dropbox: File upload expected to fail: file data remaining to upload (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db.gz) size is 9494.736328125 b (overall file size; .9722610 b), whereas available quota is only -168055023 b
+0187.541 (0) Dropbox: Attempt to upload: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db.gz to: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db.gz
+0189.621 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHKbzhR4407ZvXWwxnlH9uVSUgI-NTqpZRWPkH14vRfSJD-g, 9722610, 10240 KB)
+0190.523 (0) Dropbox: chunked upload exception (Dropbox_Exception): path (line: 283, file: /home/ulta/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0190.527 (0) An error condition has occurred for the first time during this job
+0190.533 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0190.537 (0) Number of backup sets in history: 3; groups (db): 1
+0190.539 (0) Examining (for databases) backup set with group_id=0, nonce=53d7c2e51664, datestamp=1702335953 (Dec 11 2023 23:05:53)
+0190.541 (0) This backup set is the backup set just made, so will not be deleted.
+0190.541 (0) Examining (for databases) backup set with group_id=0, nonce=aa4b49011d77, datestamp=1701732461 (Dec 04 2023 23:27:41)
+0190.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0190.543 (0) Examining (for databases) backup set with group_id=0, nonce=0234adec0334, datestamp=1701679842 (Dec 04 2023 08:50:42)
+0190.543 (0) 1701679842: db: this set includes a database (backup_2023-12-04-0850_Ultavo_Sounds_Welcome_to_the_w_0234adec0334-db.gz); db count is now 2
+0190.543 (0) 1701679842: db: over retain limit (2); will delete this database
+0190.545 (0) Dropbox: request deletion: backup_2023-12-04-0850_Ultavo_Sounds_Welcome_to_the_w_0234adec0334-db.gz
+0191.138 (0) Dropbox: deletion succeeded
+0191.149 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0191.152 (0) Number of backup sets in history: 3; groups (files): 1
+0191.154 (0) Examining (for files) backup set with nonce=53d7c2e51664, datestamp=1702335953 (Dec 11 2023 23:05:53)
+0191.154 (0) This backup set is the backup set just made, so will not be deleted.
+0191.156 (0) This backup set is the backup set just made, so will not be deleted.
+0191.157 (0) This backup set is the backup set just made, so will not be deleted.
+0191.157 (0) This backup set is the backup set just made, so will not be deleted.
+0191.157 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0191.159 (0) Examining (for files) backup set with nonce=aa4b49011d77, datestamp=1701732461 (Dec 04 2023 23:27:41)
+0191.159 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0191.159 (0) Examining (for files) backup set with nonce=0234adec0334, datestamp=1701679842 (Dec 04 2023 08:50:42)
+0191.159 (0) plugins: over retain limit (2); will delete this file entity
+0191.159 (0) themes: over retain limit (2); will delete this file entity
+0191.159 (0) uploads: over retain limit (2); will delete this file entity
+0191.159 (0) others: over retain limit (2); will delete this file entity
+0191.160 (0) Dropbox: request deletion: backup_2023-12-04-0850_Ultavo_Sounds_Welcome_to_the_w_0234adec0334-plugins.zip
+0191.806 (0) Dropbox: deletion succeeded
+0191.809 (0) Dropbox: request deletion: backup_2023-12-04-0850_Ultavo_Sounds_Welcome_to_the_w_0234adec0334-themes.zip
+0192.437 (0) Dropbox: deletion succeeded
+0192.440 (0) Dropbox: request deletion: backup_2023-12-04-0850_Ultavo_Sounds_Welcome_to_the_w_0234adec0334-uploads.zip
+0193.097 (0) Dropbox: deletion succeeded
+0193.100 (0) Dropbox: request deletion: backup_2023-12-04-0850_Ultavo_Sounds_Welcome_to_the_w_0234adec0334-others.zip
+0193.686 (0) Dropbox: deletion succeeded
+0193.695 (0) This backup set is now empty; will remove from history
+0193.696 (0) Corresponding log file (log.0234adec0334.txt) not found - must have already been deleted
+0193.698 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0193.704 (0) Resume backup (53d7c2e51664, 0): finish run
+0193.710 (0) Decremented the semaphore (fd) by 1
+0193.713 (0) Semaphore (fd) unlocked
+0193.715 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0193.723 (0) Rescheduling resumption 1: moving to 60 seconds from now (1702336207)
+0193.727 (0) No email will/can be sent - the user has not configured an email address.
+0193.728 (0) The backup has not finished; a resumption is scheduled
+0559.969 (1) Opened log file at time: Mon, 11 Dec 2023 23:15:13 +0000 on http://ulta.m2dev.invanos.net
+0559.971 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.6 WP: 6.2.3 PHP: 7.4.33 (fpm-fcgi, Linux m2dev 3.10.0-862.3.2.el7.x86_64 #1 SMP Mon May 21 23:36:36 UTC 2018 x86_64) MySQL: 5.7.22-22-log (max packet size=20971520) WPLANG: en_US Server: Apache/2.4.6 safe_mode: 0 max_execution_time: 900 memory_limit: 4128M (used: 5.2M | 2M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0559.973 (1) Free space on disk containing Updraft's temporary directory: 1211 MB
+0559.976 (1) Requesting backup semaphore lock (53d7c2e51664)
+0559.980 (1) [Debug] Lock option (updraft_lock_53d7c2e51664, wp_options) was created in the database
+0559.982 (1) [Info] Lock (updraft_lock_53d7c2e51664, wp_options) acquired after initialising the database
+0559.985 (1) Backup run: resumption=1, nonce=53d7c2e51664, file_nonce=53d7c2e51664 begun at=1702335953 (560s ago), job type=backup, previous check-in=193.69s
+0559.990 (1) Scheduling a resumption (2) after 300 seconds (1702336813) in case this run gets aborted
+0559.993 (1) Checking if we have a zip executable available
+0559.995 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0559.996 (1) Creation of backups of directories: already finished
+0559.999 (1) Saving backup status to database (elements: 8)
+0560.006 (1) Database dump (WordPress DB): Creation was completed already
+0560.008 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0560.015 (1) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip: plugins: This file has already been successfully uploaded
+0560.016 (1) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip: themes: This file has already been successfully uploaded
+0560.018 (1) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip: uploads: This file has already been successfully uploaded
+0560.019 (1) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip: others: This file has already been successfully uploaded
+0560.020 (1) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db.gz: db: This file has not yet been successfully uploaded: will queue
+0560.021 (1) Saving backup history. Total backup size: 692.1 MB
+0560.025 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0560.028 (1) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0560.030 (1) Beginning dispatch of backup to remote (dropbox) (instance identifier s-7282f0c7016211e6163a20aa11a4c79f)
+0560.031 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0560.033 (1) Dropbox: access gained; setting chunk size to: 10240 KB
+0560.341 (1) Dropbox: quota usage: used=1828.9 MB, total=2048 MB, available=219.1 MB
+0560.344 (1) Dropbox: This is a resumption: 9722610 bytes had already been uploaded
+0560.346 (1) Dropbox: Attempt to upload: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db.gz to: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db.gz
+0561.189 (1) Recording as successfully uploaded: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db.gz
+0561.197 (1) Deleting local file: backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db.gz: OK
+0561.200 (1) Dropbox: File upload success (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-db.gz): 9494 KB in 0s (11093 KB/s)
+0561.209 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0561.212 (1) Number of backup sets in history: 2; groups (db): 1
+0561.214 (1) Examining (for databases) backup set with group_id=0, nonce=53d7c2e51664, datestamp=1702335953 (Dec 11 2023 23:05:53)
+0561.216 (1) This backup set is the backup set just made, so will not be deleted.
+0561.216 (1) Examining (for databases) backup set with group_id=0, nonce=aa4b49011d77, datestamp=1701732461 (Dec 04 2023 23:27:41)
+0561.216 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0561.217 (1) Number of backup sets in history: 2; groups (files): 1
+0561.219 (1) Examining (for files) backup set with nonce=53d7c2e51664, datestamp=1702335953 (Dec 11 2023 23:05:53)
+0561.219 (1) This backup set is the backup set just made, so will not be deleted.
+0561.221 (1) This backup set is the backup set just made, so will not be deleted.
+0561.221 (1) This backup set is the backup set just made, so will not be deleted.
+0561.221 (1) This backup set is the backup set just made, so will not be deleted.
+0561.221 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0561.222 (1) Examining (for files) backup set with nonce=aa4b49011d77, datestamp=1701732461 (Dec 04 2023 23:27:41)
+0561.222 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0561.222 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0561.227 (1) Resume backup (53d7c2e51664, 1): finish run
+0561.230 (1) [Info] Lock option (updraft_lock_53d7c2e51664, wp_options) released
+0561.232 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0561.237 (1) Deleting zip manifest (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip.list.tmp)
+0561.239 (1) Deleting zip manifest (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip.list.tmp)
+0561.241 (1) Deleting zip manifest (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip.list.tmp)
+0561.243 (1) Deleting zip manifest (backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip.list.tmp)
+0561.245 (1) No email will/can be sent - the user has not configured an email address.
+0561.246 (1) The backup apparently succeeded (with warnings) and is now complete

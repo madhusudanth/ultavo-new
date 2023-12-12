@@ -1,0 +1,106 @@
+ul{
+	list-style-position: inside;
+}
+.page-id-123{
+	font-family: Raleway-Regular;
+	main#main{
+		header.entry-header{
+			text-align: left;
+			max-width: 1300px;
+    		margin: 0 auto;
+			margin-top: 20px;
+			padding: 0 2%;
+		}
+		.about-us-wrapper{
+			max-width: 1300px;
+    		padding: 0 2%;
+    		margin: 0 auto;
+    		font-size: 0.9rem;
+
+    		img{
+    			float: right;
+    			margin-left: 2%;
+    			max-width: 300px;
+    		}
+    		ul{
+    			display: inline-block;
+			    vertical-align: top;
+			    margin-right: 5%;
+    		}
+		}
+	}
+}
+
+.page-id-808{
+	header.entry-header {
+	    max-width: 1300px;
+	    margin: 0 auto;
+	    margin-top: 20px;
+	    padding: 0 2%;
+	}
+	.clients-page {
+	    max-width: 1300px;
+	    padding: 0 2%;
+	    margin: 0 auto;
+	    font-size: 0.9rem;
+	    li{
+	        width: 33.33%;
+		    display: inline-block;
+		    float: left;
+		    box-sizing: border-box;
+		    padding: 6%;
+		    margin: 0;
+		    position: relative;
+		    font-size: 1.2rem;
+		    span{
+		    	position: absolute;
+			    top: 50%;
+			    transform: translate(-50%, -50%);
+			    font-weight: bold;
+		    }
+		}
+	}
+}
+
+.page-id-808.no-sidebar .site-inner div#content {
+    float: left;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+@media (max-width:1024px){
+	.page-id-808 .clients-page{
+		li {
+			font-size: 0.8rem;
+		    padding: 8% 5%;
+		}
+	} 
+}
+
+@media (max-width:500px){
+	.page-id-808 .clients-page ul{
+		display: inline-block;
+		width: 100%;
+		margin:0;
+		li {
+			width: 100%;
+    		padding: 12% 2px;
+    		span{
+    			width: 90%;
+    		}
+		}
+	}
+	.page-id-123 main#main{
+		header.entry-header{
+			padding: 0 5%;
+		}
+		.about-us-wrapper {
+			padding: 0 5%;
+			img{
+				float: none;
+				margin-left: 0;
+			}
+		}
+	}
+}

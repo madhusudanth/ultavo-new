@@ -1,0 +1,9 @@
+# Disable access to all file types except the following
+Order deny,allow
+Deny from all
+<Files ~ ".(xml|css|js|jpg|jpe?g|png|gif|pdf|docx|rtf|odf|zip|rar|ttf|woff2|woff|otf)$">
+Allow from all
+</Files>
+<Files "favicon.ico">
+    Require all granted
+</Files>

@@ -1,0 +1,57 @@
+body::-webkit-scrollbar-track
+{
+	border: 1px solid black;
+	background-color: black;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: grey;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: grey;
+}
+
+body {
+    background: transparent;
+}
+.site{
+	margin:0 !important;
+
+	h1.entry-title {
+	    font-family: Raleway-Light;
+	    font-size: 3.2rem;
+	    font-weight: 400;
+	}
+	strong{
+		font-family:Raleway-SemiBold;
+	}
+}
+.scrolloff {
+    pointer-events: none;
+}
+.site-main {
+    margin-bottom: 0;
+}
+.preloading-image-movement {
+    width: 100%;
+    height: 100px;
+    background-position: 50% 50%;
+}
+// @keyframes animatedBackground {
+// 	from { background-position: 0 0; }
+// 	to { background-position: 100% 0; }
+// }
+// .preloading-image-movement {
+//     width: 640px;
+//     height: 256px;
+//     background-position: 0px 0px;
+//     background-repeat: repeat-x;
+//     animation: animatedBackground 40s linear infinite;
+//     -ms-animation: animatedBackground 40s linear infinite;
+//     -moz-animation: animatedBackground 40s linear infinite;
+//     -webkit-animation: animatedBackground 40s linear infinite;
+// }

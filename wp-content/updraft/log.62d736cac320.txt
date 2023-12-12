@@ -1,0 +1,25 @@
+0561.254 (1) Opened log file at time: Mon, 11 Dec 2023 23:15:15 +0000 on http://ulta.m2dev.invanos.net
+0561.257 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.6 WP: 6.2.3 PHP: 7.4.33 (fpm-fcgi, Linux m2dev 3.10.0-862.3.2.el7.x86_64 #1 SMP Mon May 21 23:36:36 UTC 2018 x86_64) MySQL: 5.7.22-22-log (max packet size=20971520) WPLANG: en_US Server: Apache/2.4.6 safe_mode: 0 max_execution_time: 900 memory_limit: 4128M (used: 5.3M | 2M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0561.259 (1) Free space on disk containing Updraft's temporary directory: 1220.9 MB
+0561.261 (1) Requesting backup semaphore lock (62d736cac320)
+0561.264 (1) [Info] Lock (updraft_lock_53d7c2e51664, wp_options) acquired
+0561.269 (1) Backup run: resumption=1, nonce=62d736cac320, file_nonce=62d736cac320 begun at=1702335953 (562s ago), job type=backup, previous check-in=193.69s
+0561.273 (1) Scheduling a resumption (2) after 300 seconds (1702336815) in case this run gets aborted
+0561.277 (1) Checking if we have a zip executable available
+0561.278 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0561.280 (1) Creation of backups of directories: already finished
+0561.282 (1) Saving backup status to database (elements: 8)
+0561.286 (1) Database dump (WordPress DB): Creation was completed already
+0561.288 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0561.292 (1) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-plugins.zip: plugins: This file has already been successfully uploaded
+0561.294 (1) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-themes.zip: themes: This file has already been successfully uploaded
+0561.295 (1) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-uploads.zip: uploads: This file has already been successfully uploaded
+0561.297 (1) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_53d7c2e51664-others.zip: others: This file has already been successfully uploaded
+0561.299 (1) backup_2023-12-11-2305_Ultavo_Sounds_Welcome_to_the_w_62d736cac320-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+0561.300 (1) Saving backup history. Total backup size: Unknown
+0561.306 (1) Resume backup (62d736cac320, 1): finish run
+0561.309 (1) There were no more files that needed uploading
+0561.311 (1) [Info] Lock option (updraft_lock_53d7c2e51664, wp_options) released
+0561.313 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0561.319 (1) No email will be sent - this backup set was empty.
+0561.321 (1) The backup apparently succeeded (with warnings) and is now complete

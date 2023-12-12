@@ -1,0 +1,3 @@
+[04-Mar-2018 08:27:29 UTC] PHP Fatal error:  Call to undefined function the_id() in /home/ultavoso/public_html/wp-content/themes/twentyfifteen/content.php on line 13
+[06-Mar-2018 03:21:17 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ultavoso/public_html/wp-content/themes/twentyfifteen/404.php on line 10
+[06-Mar-2018 12:28:48 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ultavoso/public_html/wp-content/themes/twentyfifteen/index.php on line 17
